@@ -5,6 +5,7 @@
 }
 
 .text1 h1 {
+    margin-top: 100px;
     font-size: 40px;
     font-weight: bold;
 }
@@ -15,10 +16,10 @@
 
 .text1 button {
     background-color: #E56639;
-    padding: 12px 25px;
+    padding: 10px 15px;
     border-radius: 15px;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 700;
     margin-top: 40px;
     color: azure;
     border: none;
@@ -31,23 +32,37 @@
     color: #E56639;
 }
 
-.colors1 {
+
+
+/* .colors1 {
     text-align: center;
 
+} */
+
+
+.colors1 h5{
+    font-family: 'Times New Roman', Times, serif;
+    color: black
 }
 
+
+
+
+
 .colors1 button {
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
     border: none;
 
 
 }
 
+
 .ss:hover {
     border: solid 1px #E56639;
     color: #E56639;
+
 }
 
 .mm:hover {
@@ -73,12 +88,14 @@
 .cartbtn:hover {
     color: #E56639;
     background-color: white;
-    border: solid 2px #E56639;
+    border: solid 1px #E56639;
 
 }
 
+
 .btnshop1 {
     background-color: #E56639;
+    border: none;
 }
 
 .btnshop1:hover {
@@ -98,16 +115,7 @@
 }
 
 
-/* .colors1 input {
-    height: 50px;
-    width: 60px;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 10px;
-
-} */
-
- .design button {
+.design button {
     border-radius: 50px;
     background-color: bisque;
     color: red;
@@ -115,53 +123,244 @@
     width: 60px;
     font-size: 30px;
     border: none;
-} 
+}
 
-.btnshop2 button{
-    background-color:#E56639;
+.btnshop2 {
+    color: white;
+    background-color: #E56639;
     font-weight: bold;
     font-size: 20px;
+    border: none;
 
 }
 
-.btnshop2 button:hover {
+.btnshop2:hover {
     color: #E56639;
     background-color: white;
-    border: solid 2px #E56639;
+    border: solid 1px #E56639;
 
 }
 
+.imgg-section img:hover{
+    border-radius: 10px;
+    transform: scale(1.05);
+    filter: drop-shadow(1px 1px  10px grey);
+}
 
 
-
-
-
-
-
-
-.vbydv {
+.subbtn button{
+    background-color:#E56639;
     color: white;
-    background-color: rgb(97, 97, 97);
+    border: none; 
+}
+
+
+.subbtn button:hover {
+    color:#E56639; 
+   background-color: #666666; 
+   border: 1px solid #E56639;
+    
+    
 
 }
 
 .logo1 button {
-    border-radius: 50px;
-    background-color: rgb(74, 17, 17);
+    border-radius: 60px;
+    background-color: #3B3026;
     color: white;
     height: 60px;
     width: 60px;
     font-size: 30px;
     border: none;
-    margin: 5px;
+    margin: 4px;
 }
 
-.Sub button:hover {
-    background-color: white;
-    color: rgb(255, 255, 255);
-    border: solid rgb(23, 6, 0);
-}
 
-.firstcrd {
-    border-radius: 25px;
-}
+#products1 {
+    width: 187px;
+    height: 187px;
+    /* background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSB7bGUOYSbgLWfoMeoBdSuWbzKB4c9fkYixt42qh7sjAnqqCublQ); */
+    background-image: url(img1.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+   
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.418);
+    text-align: center;
+    padding: 45% 0;
+    opacity: 0;
+    transition: opacity .25s ease;
+  }
+  .overlay i{
+    font-size: 30px;
+    color: white;
+  }
+   
+  #products1:hover .overlay {
+    opacity: 0.9;
+  }
+  #products1:hover {
+    background-size: 130%; /* Zoom out effect (image appears to zoom away) */
+  }
+   
+  .read-article {
+    font-family: HelveticaNeueLTStd;
+    font-weight: 800;
+    font-size: .95rem;
+    text-transform: uppercase;
+    padding-bottom: .25rem;
+   color: white;
+   text-decoration: underline;
+  }
+
+  #products2 {
+    width: 187px;
+    height: 187px;
+    /* background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSB7bGUOYSbgLWfoMeoBdSuWbzKB4c9fkYixt42qh7sjAnqqCublQ); */
+    background-image: url(img2.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+
+  #products2:hover .overlay {
+    opacity: 1;
+  }
+  #products2:hover {
+    background-size: 130%; /* Zoom out effect (image appears to zoom away) */
+  }
+
+
+  #products3 {
+    width: 187px;
+    height: 187px;
+    /* background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSB7bGUOYSbgLWfoMeoBdSuWbzKB4c9fkYixt42qh7sjAnqqCublQ); */
+    background-image: url(img3.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+
+  #products3:hover .overlay {
+    opacity: 1;
+  }
+  #products3:hover {
+    background-size: 130%; /* Zoom out effect (image appears to zoom away) */
+  }
+
+
+  #products4 {
+    width: 187px;
+    height: 187px;
+    /* background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSB7bGUOYSbgLWfoMeoBdSuWbzKB4c9fkYixt42qh7sjAnqqCublQ); */
+    background-image: url(img4.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+
+  #products4:hover .overlay {
+    opacity: 1;
+  }
+  #products4:hover {
+    background-size: 130%; /* Zoom out effect (image appears to zoom away) */
+  }
+
+  #products5 {
+    width: 187px;
+    height: 187px;
+    /* background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSB7bGUOYSbgLWfoMeoBdSuWbzKB4c9fkYixt42qh7sjAnqqCublQ); */
+    background-image: url(img5.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+
+  #products5:hover .overlay {
+    opacity: 1;
+  }
+  #products5:hover {
+    background-size: 130%; /* Zoom out effect (image appears to zoom away) */
+  }
+
+  #products6 {
+    width: 187px;
+    height: 187px;
+    /* background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSB7bGUOYSbgLWfoMeoBdSuWbzKB4c9fkYixt42qh7sjAnqqCublQ); */
+    background-image: url(img6.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+
+  #products6:hover .overlay {
+    opacity: 1;
+  }
+  #products6:hover {
+    background-size: 130%; /* Zoom out effect (image appears to zoom away) */
+  }
+
+  #products7 {
+    width: 187px;
+    height: 187px;
+    /* background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSB7bGUOYSbgLWfoMeoBdSuWbzKB4c9fkYixt42qh7sjAnqqCublQ); */
+    background-image: url(img7.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+
+  #products7:hover .overlay {
+    opacity: 1;
+  }
+  #products7:hover {
+    background-size: 130%; /* Zoom out effect (image appears to zoom away) */
+  }
+
+
+  #products8 {
+    width: 187px;
+    height: 187px;
+    /* background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSB7bGUOYSbgLWfoMeoBdSuWbzKB4c9fkYixt42qh7sjAnqqCublQ); */
+    background-image: url(img8.webp);
+    background-size: cover; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+    height: auto;
+    width: auto;
+  }
+
+  #products8:hover .overlay {
+    opacity: 1;
+  }
+  #products8:hover {
+    background-size: 130%; /* Zoom out effect (image appears to zoom away) */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
