@@ -34,12 +34,6 @@
 
 
 
-/* .colors1 {
-    text-align: center;
-
-} */
-
-
 .colors1 h5{
     font-family: 'Times New Roman', Times, serif;
     color: black
@@ -50,10 +44,11 @@
 
 
 .colors1 button {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 20px;
-    border: none;
+    border: 1px solid grey;
+    
 
 
 }
